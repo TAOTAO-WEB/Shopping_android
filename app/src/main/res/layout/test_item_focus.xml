@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--外部引入-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="50px"
+    android:layout_marginBottom="50px"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:padding="20px">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            style="@style/linear_focus"
+            android:layout_marginRight="20px">
+
+            <LinearLayout style="@style/linear_focus_one">
+
+                <TextView
+                    android:id="@+id/fouces_title_first"
+                    style="@style/focus_two"
+                    android:textSize="46px"
+                    android:textStyle="bold"
+                    android:text="text" />
+
+                <TextView
+                    android:id="@+id/fouces_title_second"
+                    style="@style/focus_one"
+                    android:text="text" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/fouces_pic_fourth"
+                android:layout_width="150px"
+                android:layout_height="150px"
+                android:scaleType="centerCrop" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/linear_focus">
+
+            <LinearLayout style="@style/linear_focus_one">
+
+                <TextView
+                    android:id="@+id/fouces_title_third"
+                    style="@style/focus_two"
+                    android:text="text"
+                    android:textSize="46px"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/fouces_title_fourth"
+                    style="@style/focus_one"
+                    android:text="text" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/fouces_pic_fifth"
+                android:layout_width="150px"
+                android:layout_height="150px"
+                android:scaleType="centerCrop" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20px"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            style="@style/linear_focus"
+            android:layout_marginRight="20px">
+
+            <LinearLayout style="@style/linear_focus_one">
+
+                <TextView
+                    android:id="@+id/fouces_title_fifth"
+                    style="@style/focus_two"
+                    android:text="text"
+                    android:textSize="46px"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/fouces_title_sixth"
+                    style="@style/focus_one"
+                    android:text="text" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/fouces_pic_sixth"
+                android:layout_width="150px"
+                android:layout_height="150px"
+                android:scaleType="centerCrop" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/linear_focus">
+
+            <LinearLayout style="@style/linear_focus_one">
+
+                <TextView
+                    android:id="@+id/fouces_title_seventh"
+                    style="@style/focus_two"
+                    android:text="text"
+                    android:textSize="46px"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/fouces_title_eighth"
+                    style="@style/focus_one"
+                    android:text="text" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/fouces_pic_seventh"
+                android:layout_width="150px"
+                android:layout_height="150px"
+                android:scaleType="centerCrop" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

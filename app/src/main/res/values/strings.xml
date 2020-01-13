@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">咸鱼</string>
+    <string name="title_home">主页</string>
+    <string name="title_dashboard">发布</string>
+    <string name="title_notifications">个人</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="tab_name">
+        <item>个人信息</item>
+        <item>我的钱包</item>
+        <item>我的收藏</item>
+        <item>账号绑定</item>
+        <item>信用认证</item>
+        <item>联系客服</item>
+    </string-array>
+</resources>
